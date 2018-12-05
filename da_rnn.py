@@ -62,7 +62,7 @@ class RNN(nn.Module):
             res[i] = self.W(h_t)
         # self.c = c_t
         # self.h = h_t
-        
+        print()
         return res
 
 X_T, Y_T = gen_data()
